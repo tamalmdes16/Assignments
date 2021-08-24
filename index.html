@@ -3,16 +3,6 @@
     <head>
         <title>Simple Form</title>
         <link rel="stylesheet" href="style.css">
-        
-        <script>
-            function passvalues() 
-            {
-                var firstname= document.getElementById("txt").value;
-                localstorage.setitem("textvalue",firstname);
-                return false;
-            }
-            
-        </script>
     </head>
 
 
@@ -27,7 +17,7 @@
         
         
         
-        <form action="display.html">
+        <form method="GET" action="display.html">
         
         <div class= "divstyle">
             <label class="labelstyle" for="NAME">Name</label>
@@ -45,7 +35,7 @@
         </div>
 
         <div>
-            <button class= "buttonstyle" onclick= passvalues()>SUBMIT</button>
+            <button class= "buttonstyle">SUBMIT</button>
         </div>
 
 
