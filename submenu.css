@@ -12,5 +12,4 @@
 .submenu {
     display: flex;
     flex-direction: column;
-    background-color: indigo;
 }
