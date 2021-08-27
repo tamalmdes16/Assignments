@@ -103,7 +103,7 @@ background-color: black;
 
 
 
-#menuitem3:hover .sub
+#menuitem3:hover .sub>li
 {
     width: 160px;
     height: 200px;
