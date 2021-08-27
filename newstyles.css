@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.primanav
+{
+display: flex;
+justify-content:space-around;
+padding: 12px;
+width: 100%;
+height: 72px;
+background-color: black;
+}
+
+.primanav a
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    width: 48px;
+    height: 48px;
+    display: flex;
+}
+
+.menuitem
+{   
+    margin: 16px;
+    /* background-color: cornflowerblue; */
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.menuitem:hover
+{
+    color: red;
+}
+
+#size
+{
+    font-size: 10px;
+    margin: 4px;
+}
+
+#menuitem3:hover .chevron
+{
+    font-size: 10px;
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.search
+{
+    height: 40px;
+    width: 360px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 12px 12px 28px;
+}
+
+.search:focus
+{
+  outline: none;
+  border: 2px solid #b2b2b2; 
+  border-radius: 8px;
+}
+
+.menuitem i
+{
+    position: absolute;
+    margin: 8px;
+    color: #666666;
+}
+
+::placeholder 
+{ 
+    color: #b2b2b2;
+    opacity: 1;
+}
+
+.container
+{
+    display: flex;
+}
+
+.container .menuitem
+{
+  width: fit-content;
+    
+}
+
+.sub
+{
+    display: none;
+    transition: 00.5s;
+}
+
+#menuitem3
+{
+    width: 80px;
+}
+
+#menuitem3:hover .sub
+{
+    width: 160px;
+    height: 200px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 8px #dddddd;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 136px;
+    right: 100px;
+    transition: 00.5s;
+}
+
+.menu
+{
+    display: flex;
+}
+
+#menuitem1
+{
+    margin-left: 240px;
+    margin-right: 240px;
+}

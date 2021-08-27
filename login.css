@@ -38,13 +38,18 @@
     margin-top: 16px;
     width: 100%;
     padding: 16px 24px;
-    background-color: rgb(86, 1, 134);
+    background-color: rgb(224, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 8px;
     border: none;
     font-family: Roboto, sans-serif;
     letter-spacing: 4px;
     cursor: pointer;
+}
+.buttonstyle:hover
+{
+    background-color: rgb(255, 0, 0); 
+    transition: 0.5s;
 }
 
 .imgstyle {

@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 
 <html>
+    
+
     <head>
-    
-        <title>Primary Navigation</title>
-        <link rel="stylesheet" href="submenu.css">
-        <link rel="stylesheet" href="menu.css">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="newstyles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    
+   
+   
     <body>
+        
         <div class="wrapper">
-
-            <nav id="main-nav">
-                <ul>
-                    <li>
-                        <a href="index.html"> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/846a9086-8a40-43e0-aa10-2fc7d6d73730/dd4bz30-1d55fffc-6517-422f-9609-680cc512ef12.png/v1/fill/w_1280,h_1385,strp/avengers__endgame__2019__avengers_logo_png__by_mintmovi3_dd4bz30-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM4NSIsInBhdGgiOiJcL2ZcLzg0NmE5MDg2LThhNDAtNDNlMC1hYTEwLTJmYzdkNmQ3MzczMFwvZGQ0YnozMC0xZDU1ZmZmYy02NTE3LTQyMmYtOTYwOS02ODBjYzUxMmVmMTIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HSwQpmD6VQVxpTovHw2AfJBINQC5dmlYqKxjvTGP_Fo" width= 80px> </a>
-                    </li>
-
-                    <li><a href=""> Avengers &nbsp;
-                        <span class="arrow"> &#x25BC; </span>
-                    </a>
-                    <ul class="submenu">
-                        <li><a href="">Iron-man</a></li>
-                        <li><a href="">Captain America</a></li>
-                        <li><a href="">Thor</a></li>
-                        <li><a href="">Hulk</a></li>
-                        <li><a href="">Black Widow</a></li>
-                        <li><a href="">Hawkeye</a></li>
-                    </ul>
-                    </li>
+           
+            <nav class="primanav">
+                <ul class="menu">
+            
+                    <li class="logo" id="logo"> <a href="index.html"><img class="logo" src="https://cryptologos.cc/logos/tron-trx-logo.png"></a></li>
+            
+                    <li class="menuitem" id="menuitem1"><i class="fa fa-search"></i><input class="search" type="text" placeholder="Type a keyword to search..."></li>
+            
+                    <div class="container">
                     
-                    <li><a href="">S.H.I.E.L.D</a></li>
+                        <ul class="menu">
+                            <li class="menuitem" id="menuitem2"><a href="">About</a></li>
+            
+                            <li class="menuitem" id="menuitem3"><a href="">Services</a><span class="chevron fa fa-chevron-down" id="size"></span>
+            
+                                <ul class="sub">
+                                    <li><a href="">Gaming</a></li>
+                                    <li><a href="">Photography</a></li>
+                                    <li><a href="">Adventure</a></li>
+                                    <li><a href="">Industry 4.0</a></li>
+                                    <li><a href="">Social</a></li>
+                                </ul>
+            
+                            </li> 
+
+                            <li class="menuitem" id="menuitem4"><a href="Login.html">Login</a></li>
                     
-                    <li><a href="Login.html">Login</a></li>
+                        </ul>
+                    
+                    </div>
                 </ul>
             </nav>
 
         </div>
-        
+
+
     </body>
-</html>
+
+
+    </html>
