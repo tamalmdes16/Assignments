@@ -57,7 +57,8 @@ background-color: black;
 .search
 {
     height: 40px;
-    width: 360px;
+    flex-grow: 3;
+    /* width: 360px; */
     border: none;
     border-radius: 8px;
     padding: 12px 12px 12px 28px;
@@ -100,10 +101,7 @@ background-color: black;
     transition: 00.5s;
 }
 
-#menuitem3
-{
-    width: 80px;
-}
+
 
 #menuitem3:hover .sub
 {
@@ -113,6 +111,7 @@ background-color: black;
     border-radius: 8px;
     box-shadow: 0px 8px 8px #dddddd;
     justify-content: space-around;
+    display: block;
     display: flex;
     flex-direction: column;
     background-color: red;
@@ -121,6 +120,13 @@ background-color: black;
     top: 136px;
     right: 100px;
     transition: 00.5s;
+}
+
+
+#menuitem3
+{
+    width: 80px;
+    
 }
 
 .menu
