@@ -87,6 +87,9 @@ background-color: black;
 .container
 {
     display: flex;
+    height: 72px;
+    background-color: aqua;
+    align-items: top;
 }
 
 .container .menuitem
